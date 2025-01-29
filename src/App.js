@@ -6,6 +6,10 @@ import Hero from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import { BrowserRouter as Router } from "react-router-dom";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -14,7 +18,7 @@ const Body = styled.div`
   overflow-x: hidden;
 `;
 
-const Wrapper = styled.div` 
+const Wrapper = styled.div`
   background: linear-gradient(
       38.73deg,
       rgba(204, 0, 187, 0.15) 0%,
@@ -33,17 +37,19 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <Router>
-      <Navbar />
-      <Body>
-        <Hero />
-        <Wrapper>
-        <Skills />
-        <Education/>
-        </Wrapper>
-      
-      </Body> 
+        <Navbar />
+        <Body>
+          <Hero />
+          <Wrapper>
+            <Skills />
+            <Experience />
+          </Wrapper>
+          <Projects />
+          <Education />
+          <Contact />
+          <Footer />
+        </Body>
       </Router>
-      
     </ThemeProvider>
   );
 }

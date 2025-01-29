@@ -1,5 +1,6 @@
-import React from "react";
 import styled from "styled-components";
+import React from "react";
+import { experience } from "../../data/constants";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import {
@@ -8,8 +9,7 @@ import {
   TimelineDot,
   TimelineSeparator,
 } from "@mui/lab";
-import { education } from "../../data/constants";
-import EducationCard from "../Cards/EducationCard";
+import ExperienceCard from "../Cards/ExperienceCard";
 
 
 const Container = styled.div`
@@ -74,28 +74,26 @@ const TimelineSection = styled.div`
     gap: 12px;
 `;
 
-const index = () => {
+
+const Experience = () => {
   return (
-    <Container id="education">
+    <Container id="experience">
       <Wrapper>
-        <Title>Education</Title>
-        <Desc>
-          My education has been a journey of self-discovery and growth. My
-          educational details are as follows.
-        </Desc>
+        <Title>Experience</Title>
+        <Desc>Here are some of my project</Desc>
         <TimelineSection>
           <Timeline>
-            {education.map((education, index) => (
+            {experience.map((experience, index) => (
               <TimelineItem>
-                <TimelineContent sx={{ py: "12px", px: 2 }}>
-                  <EducationCard education={education} />
-                </TimelineContent>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
-                  {index !== education.length && (
+                  {index !== experience.length - 1 && (
                     <TimelineConnector style={{ background: "#854CE6" }} />
                   )}
                 </TimelineSeparator>
+                <TimelineContent sx={{ py: "12px", px: 2 }}>
+                  <ExperienceCard experience={experience} />
+                </TimelineContent>
               </TimelineItem>
             ))}
           </Timeline>
@@ -105,4 +103,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Experience;

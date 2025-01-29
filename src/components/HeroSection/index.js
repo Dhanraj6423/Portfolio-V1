@@ -1,16 +1,16 @@
 import React from 'react'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
+import HeroBgAnimation from '../HeroBgAnimation'
+import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,ResumeButton } from './HeroStyle'
 import HeroImg from '../../images/HeroImg1.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
-import HeroBgAnimation from '../../HeroBgAnimation';
 
 const HeroSection = () => {
     return (
         <div id="about">
             <HeroContainer>
                 <HeroBg>
-                    <HeroBgAnimation/>
+                    <HeroBgAnimation />
                 </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">
