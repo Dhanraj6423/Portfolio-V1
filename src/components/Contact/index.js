@@ -7,9 +7,9 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   position: relative;
   z-index: 1;
-  align-items: center;
   @media (max-width: 960px) {
     padding: 0px;
   }
@@ -93,7 +93,7 @@ const ContactInputMessage = styled.textarea`
   }
 `;
 
-const ContactButton = styled.input`
+const ContactButton = styled.button`
   width: 100%;
   background: linear-gradient(225deg, #9400d3 0%, #ff1493 100%);
   padding: 13px 16px;
@@ -109,28 +109,31 @@ const ContactButton = styled.input`
 `;
 
 const Contact = () => {
-  const [open, setOpen] = useState(false);
   const form = useRef();
+  const [open, setOpen] = useState(false); // Snackbar visibility state
+  const [error, setError] = useState(null); // State for error handling
 
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
-    // Ensure emails go to dhanrajnimbolkar@gmail.com
-    const formData = new FormData(form.current);
-    formData.append("to_email", "dhanrajnimbolkar@gmail.com");
+    if (!form.current) {
+      console.error("Form reference is null.");
+      return;
+    }
 
     emailjs
-    .sendForm(
-        "service_tox7kqs", // your email service ID
-        "template_nv7k7mj", // your email template ID
-        form.current,
-        "zlN6RFgLQO0QjNco3" // your public API key
-      )
-      .then(() => {
-        setOpen(true);
-        form.current.reset();
-      })
-      .catch((error) => console.log(error.text));
+      .sendForm("service_0otgwxf", "template_5460qdf", form.current, "zlN6RFgLQO0QjNco3")
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          setOpen(true);
+          form.current.reset(); // Reset form after successful submission
+        },
+        (error) => {
+          console.error("FAILED...", error.text);
+          setError("Failed to send email. Please try again.");
+        }
+      );
   };
 
   return (
@@ -138,14 +141,15 @@ const Contact = () => {
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
+        <ContactForm ref={form} onSubmit={sendEmail}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" required />
-          <ContactInput placeholder="Your Name" name="from_name" required />
-          <ContactInput placeholder="Subject" name="subject" required />
+          <ContactInput type="email" placeholder="Your Email" name="from_email" required />
+          <ContactInput type="text" placeholder="Your Name" name="from_name" required />
+          <ContactInput type="text" placeholder="Subject" name="subject" required />
           <ContactInputMessage placeholder="Message" rows="4" name="message" required />
-          <ContactButton type="submit" value="Send" />
+          <ContactButton type="submit">Send</ContactButton>
         </ContactForm>
+        {error && <p style={{ color: "red", marginTop: "10px" }}>{error}</p>}
         <Snackbar
           open={open}
           autoHideDuration={6000}
