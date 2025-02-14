@@ -41,9 +41,9 @@ const Title = styled.div`
 const Desc = styled.div`
   font-size: 18px;
   text-align: center;
-  max-width: 600px;
+  max-width: 700px;
   color: ${({ theme }) => theme.text_secondary};
-  @media (max-width: 768px) {
+  @media (max-width:768px) {
     font-size: 16px;
   }
 `;
@@ -140,9 +140,9 @@ const Contact = () => {
     <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Desc>Got an idea, a question, or an opportunity? I’d love to hear from you. Let’s connect and make things happen!</Desc>
         <ContactForm ref={form} onSubmit={sendEmail}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactTitle>Email Me ✉️</ContactTitle>
           <ContactInput type="email" placeholder="Your Email" name="from_email" required />
           <ContactInput type="text" placeholder="Your Name" name="from_name" required />
           <ContactInput type="text" placeholder="Subject" name="subject" required />

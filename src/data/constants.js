@@ -7,7 +7,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+"I love bringing ideas to life on the web. Whether it’s crafting clean, responsive designs or solving tricky frontend challenges, I’m all about making websites that look great and work even better. With a solid grip on React, HTML, CSS, and JavaScript, I’m always pushing myself to learn, refine, and build smarter. Every project is a chance to grow, and I’m here for it; ready to create, experiment, and deliver something awesome.",
   github: "https://github.com/Dhanraj6423",
   resume:
     "https://drive.google.com/file/d/1u8em9gzhAX7zqRyKg47OrCAu29k58SRN/view?usp=drive_link",
@@ -37,18 +37,15 @@ export const skills = [
       },
       {
         name: "HTML",
-        image:  "https://skillicons.dev/icons?i=html",
+        image: "https://skillicons.dev/icons?i=html",
       },
       {
         name: "CSS",
-        image:
- 
-         "https://skillicons.dev/icons?i=css"
+        image: "https://skillicons.dev/icons?i=css",
       },
       {
         name: "JavaScript",
-        image:
-         "https://skillicons.dev/icons?i=js",
+        image: "https://skillicons.dev/icons?i=js",
       },
       {
         name: "Bootstrap",
@@ -133,17 +130,10 @@ export const experience = [
     role: "Programmer Analyst",
     company: "Cognizant Technology Solutions",
     date: "Feb 2022 - June 2024",
-    desc: "Working on Web development as Frontend developer.",
-    skills: [
-      "ReactJS",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Mysql"
-    ],
-    doc: "./logo192.png",
+    desc: "For the past two years, I’ve been diving deep into frontend development, building interactive and responsive web applications. Working with React, HTML, CSS, and JavaScript, I’ve tackled real-world challenges, optimizing performance, improving user experiences, and collaborating with teams to bring ideas to life. From fixing tricky bugs to implementing sleek UI designs, every project has sharpened my skills and fueled my passion for web development. Now, I’m excited to take everything I’ve learned and push it even further.",
+    skills: ["ReactJS", "HTML", "CSS", "JavaScript", "Mysql"],
+   // doc: "./logo192.png",
   },
-  
 ];
 
 export const education = [
@@ -153,7 +143,7 @@ export const education = [
     school: "NBN Sinhgad School Of Engineering College in Pune, Maharashtra",
     date: "Aug 2018 - june 2021",
     grade: "7.71 CGPA",
-    desc: "complete my bachelor degree here in electrical engineering.",
+    desc:"These years pushed me beyond textbooks, shaping my problem-solving skills and technical acumen. I explored real-world applications, collaborated on projects, and embraced new challenges, all while maintaining a CGPA of 7.71. This phase laid the groundwork for my transition into the world of development." ,
     degree: "BE, Computer Science and Engineering",
   },
   {
@@ -162,7 +152,7 @@ export const education = [
     school: "Government Polytechnic Jalgaon",
     date: "Aug 2015 - June 2018",
     grade: "68.9%",
-    desc: "i complete my polytechnic education here in electrical engineering.",
+    desc: "My foundation in engineering was built here, where hands-on learning played a crucial role. With a strong focus on practical applications, I developed a structured approach to problem-solving. Graduating with 68.9%, this experience ignited my passion for technology and innovation.",
     degree: "Diploma in Electrical Engineering",
   },
   {
@@ -171,8 +161,7 @@ export const education = [
     school: "Government Polytechnic Jalgaon",
     date: "Aug 2012 - June 2015",
     grade: "82.2%",
-    desc: "i complete 10Th std eduction here.",
-   
+    desc:"This is where my academic journey truly began. Scoring 82.2%, I built a strong foundation in core subjects, developing curiosity and a drive for continuous learning. These formative years played a crucial role in shaping my analytical thinking and passion for problem-solving.",
   },
 ];
 
@@ -229,7 +218,7 @@ export const projects = [
       },
     ],
   },
- ];
+];
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },

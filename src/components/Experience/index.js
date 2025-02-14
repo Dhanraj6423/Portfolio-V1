@@ -80,7 +80,7 @@ const Experience = () => {
     <Container id="experience">
       <Wrapper>
         <Title>Experience</Title>
-        <Desc>Here are some of my project</Desc>
+        <Desc>Frontend development meets innovation; crafting seamless digital experiences in the IT world.</Desc>
         <TimelineSection>
           <Timeline>
             {experience.map((experience, index) => (
