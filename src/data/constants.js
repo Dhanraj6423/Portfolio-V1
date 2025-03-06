@@ -209,6 +209,7 @@ export const projects = [
         name: "Yash Mali",
         img: "../images/CollabPI.jpeg",
         github: "https://github.com/monsoon-io",
+        linkedin: "https://www.linkedin.com/in/geek-yash-mali/",
       },
     ],
   },
