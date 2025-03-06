@@ -7,7 +7,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-"I love bringing ideas to life on the web. Whether it’s crafting clean, responsive designs or solving tricky frontend challenges, I’m all about making websites that look great and work even better. With a solid grip on React, HTML, CSS, and JavaScript, I’m always pushing myself to learn, refine, and build smarter. Every project is a chance to grow, and I’m here for it; ready to create, experiment, and deliver something awesome.",
+    "I love bringing ideas to life on the web. Whether it’s crafting clean, responsive designs or solving tricky frontend challenges, I’m all about making websites that look great and work even better. With a solid grip on React, HTML, CSS, and JavaScript, I’m always pushing myself to learn, refine, and build smarter. Every project is a chance to grow, and I’m here for it; ready to create, experiment, and deliver something awesome.",
   github: "https://github.com/Dhanraj6423",
   resume:
     "https://drive.google.com/file/d/1u8em9gzhAX7zqRyKg47OrCAu29k58SRN/view?usp=drive_link",
@@ -132,7 +132,7 @@ export const experience = [
     date: "Feb 2022 - June 2024",
     desc: "For the past two years, I’ve been diving deep into frontend development, building interactive and responsive web applications. Working with React, HTML, CSS, and JavaScript, I’ve tackled real-world challenges, optimizing performance, improving user experiences, and collaborating with teams to bring ideas to life. From fixing tricky bugs to implementing sleek UI designs, every project has sharpened my skills and fueled my passion for web development. Now, I’m excited to take everything I’ve learned and push it even further.",
     skills: ["ReactJS", "HTML", "CSS", "JavaScript", "Mysql"],
-   // doc: "./logo192.png",
+    // doc: "./logo192.png",
   },
 ];
 
@@ -143,12 +143,12 @@ export const education = [
     school: "NBN Sinhgad School Of Engineering College in Pune, Maharashtra",
     date: "Aug 2018 - june 2021",
     grade: "7.71 CGPA",
-    desc:"These years pushed me beyond textbooks, shaping my problem-solving skills and technical acumen. I explored real-world applications, collaborated on projects, and embraced new challenges, all while maintaining a CGPA of 7.71. This phase laid the groundwork for my transition into the world of development." ,
+    desc: "These years pushed me beyond textbooks, shaping my problem-solving skills and technical acumen. I explored real-world applications, collaborated on projects, and embraced new challenges, all while maintaining a CGPA of 7.71. This phase laid the groundwork for my transition into the world of development.",
     degree: "BE, Computer Science and Engineering",
   },
   {
     id: 1,
-    img: "http://gpjalgaon.org.in/images/logo.png",
+    img: "../images/logo1.png",
     school: "Government Polytechnic Jalgaon",
     date: "Aug 2015 - June 2018",
     grade: "68.9%",
@@ -157,73 +157,122 @@ export const education = [
   },
   {
     id: 2,
-    img: "http://gpjalgaon.org.in/images/logo.png",
-    school: "Government Polytechnic Jalgaon",
+    img: "../images/logo2.png",
+    school: "Late Smt.B.G.Shanbhag Vidyalaya., Jalgaon",
     date: "Aug 2012 - June 2015",
     grade: "82.2%",
-    desc:"This is where my academic journey truly began. Scoring 82.2%, I built a strong foundation in core subjects, developing curiosity and a drive for continuous learning. These formative years played a crucial role in shaping my analytical thinking and passion for problem-solving.",
+    desc: "This is where my academic journey truly began. Scoring 82.2%, I built a strong foundation in core subjects, developing curiosity and a drive for continuous learning. These formative years played a crucial role in shaping my analytical thinking and passion for problem-solving.",
   },
 ];
 
 export const projects = [
   {
-    id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
-  },
-  {
     id: 0,
     title: "Portfolio",
-    date: "July-2024 - Jan 2025",
+    date: "July 2024 - Jan 2025",
     description:
-    "This is my personal portfolio website, built using ReactJS to showcase my skills, projects, and experience as a frontend developer. The site is fully responsive, optimized for performance, and designed with a modern UI/UX.",  
-    image:
-      "",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "This is my personal portfolio website, built using ReactJS to showcase my skills, projects, and experience as a frontend developer. The site is fully responsive, optimized for performance, and designed with a modern UI/UX.",
+    image: "../images/ProjectCard1.png",
+    tags: ["Html5", "Css3", "React Js", "Styled Components", "Material-ui"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/Dhanraj6423/Portfolio-V1.git",
+    webapp: "https://dhanraj-nimbolkar.netlify.app/",
     member: [
       {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
+        name: "Dhanraj Nimbolkar",
+        img: "../images/HeroImg1.jpg",
+        linkedin: "https://www.linkedin.com/in/dhanraj-nimbolkar/",
+        github: "https://github.com/Dhanraj6423",
       },
     ],
   },
-];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  {
+    id: 1,
+    title: "Reverba Posdcast App",
+    date: "Jan 2025 and continue",
+    description:
+      "A modern podcast streaming app where users can browse, search, and listen to podcasts across various categories. Built with React, it offers a responsive design, seamless API integration, and a user-friendly interface for discovering and saving favorite shows.",
+    image: "../images/ProjectCard2.png",
+    tags: ["React Js", "Material-ui", "MongoDb", "Node Js", "Express Js"],
+    category: "web app",
+    github: "https://github.com/Dhanraj6423/Reverba.git",
+    webapp: "https://reverba.netlify.app/",
+    member: [
+      {
+        name: "Dhanraj Nimbolkar",
+        img: "../images/HeroImg1.jpg",
+        linkedin: "https://www.linkedin.com/in/dhanraj-nimbolkar/",
+        github: "https://github.com/Dhanraj6423",
+      },
+      {
+        name: "Yash Mali",
+        img: "../images/CollabPI.jpeg",
+        github: "https://github.com/monsoon-io",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    title: "Weather App",
+    date: "Dec 2024 - Jan 2025",
+    description:
+      "The Weather App is a sleek and responsive web application built with React.js, designed to provide real-time weather updates for any location worldwide. It fetches accurate weather data using an external API and displays key details such as temperature, humidity, wind speed, and weather conditions in a user-friendly interface.",
+    image: "../images/ProjectCard3.png",
+    tags: ["React Js", "openweather-api", "tabler-icons", "dayjs"],
+    category: "web app",
+    github: "https://github.com/Dhanraj6423/Weather-React-App.git",
+    webapp: "https://weatherwhizzy.netlify.app/",
+    member: [
+      {
+        name: "Dhanraj Nimbolkar",
+        img: "../images/HeroImg1.jpg",
+        linkedin: "https://www.linkedin.com/in/dhanraj-nimbolkar/",
+        github: "https://github.com/Dhanraj6423",
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    title: "3D Animation UI",
+    date: "Sept 2024 - Nov 2024 ",
+    description:
+      "Designed and developed a visually engaging 3D animated website to enhance user interaction and showcase advanced frontend techniques. The project leverages modern web technologies and creative animations to deliver a seamless, immersive experience.",
+    image: "../images/ProjectCard4.png",
+    tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design Techniques"],
+    category: "web app",
+    github: "https://github.com/Dhanraj6423/3D-Animation-UI.git",
+    webapp: "https://3d-animation-ui.netlify.app/",
+    member: [
+      {
+        name: "Dhanraj Nimbolkar",
+        img: "../images/HeroImg1.jpg",
+        linkedin: "https://www.linkedin.com/in/dhanraj-nimbolkar/",
+        github: "https://github.com/Dhanraj6423",
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    title: "Language Transltor App",
+    date: "July 2024 - Aug 2024 ",
+    description:
+      "Developed a language translation web application that allows users to seamlessly translate text between multiple languages in real-time. The app offers a clean and intuitive user interface and supports a wide range of languages, making communication across different cultures easier and more accessible.",
+    image: "../images/ProjectCard5.png",
+    tags: ["HTML5", "CSS3","JavaScript","React Js","API Integration","Google Translate API"],
+    category: "web app",
+    github: "https://github.com/Dhanraj6423/3D-Animation-UI.git",
+    webapp: "https://3d-animation-ui.netlify.app/",
+    member: [
+      {
+        name: "Dhanraj Nimbolkar",
+        img: "../images/HeroImg1.jpg",
+        linkedin: "https://www.linkedin.com/in/dhanraj-nimbolkar/",
+        github: "https://github.com/Dhanraj6423",
+      },
+    ],
+  },
 ];

@@ -138,7 +138,7 @@ const ProjectCards = ({project,setOpenModal}) => {
             </Details>
             <Members>
                 {project.member?.map((member) => (
-                    <Avatar src={member.img}/>
+                <Avatar src={member.img}/>
                 ))}
             </Members>
             {/* <Button>View Project</Button> */}
