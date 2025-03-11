@@ -10,7 +10,7 @@ export const Bio = {
     "I love bringing ideas to life on the web. Whether it’s crafting clean, responsive designs or solving tricky frontend challenges, I’m all about making websites that look great and work even better. With a solid grip on React, HTML, CSS, and JavaScript, I’m always pushing myself to learn, refine, and build smarter. Every project is a chance to grow, and I’m here for it; ready to create, experiment, and deliver something awesome.",
   github: "https://github.com/Dhanraj6423",
   resume:
-    "https://drive.google.com/file/d/1u8em9gzhAX7zqRyKg47OrCAu29k58SRN/view?usp=drive_link",
+    "https://drive.google.com/file/d/1tSxX-MCBRNalyBzyMvt0FrW6VugNfsco/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dhanraj-nimbolkar/",
   twitter: "https://x.com/Dhanraj0202",
   insta: "#",
@@ -258,15 +258,22 @@ export const projects = [
 
   {
     id: 4,
-    title: "Language Transltor App",
+    title: "Language Translator App",
     date: "July 2024 - Aug 2024 ",
     description:
       "Developed a language translation web application that allows users to seamlessly translate text between multiple languages in real-time. The app offers a clean and intuitive user interface and supports a wide range of languages, making communication across different cultures easier and more accessible.",
     image: "../images/ProjectCard5.png",
-    tags: ["HTML5", "CSS3","JavaScript","React Js","API Integration","Google Translate API"],
+    tags: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React Js",
+      "API Integration",
+      "Google Translate API",
+    ],
     category: "web app",
     github: "https://github.com/Dhanraj6423/3D-Animation-UI.git",
-    webapp: "https://3d-animation-ui.netlify.app/",
+    webapp: "https://chattranslate.netlify.app/",
     member: [
       {
         name: "Dhanraj Nimbolkar",

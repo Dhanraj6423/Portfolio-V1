@@ -21,7 +21,7 @@ export const HeroBg = styled.div`
   position: absolute;
   display: flex;
   justify-content: end;
-  top: 0;
+  top: ;
   right: 0;
   bottom: 0;
   left: 0;
@@ -98,6 +98,7 @@ export const Img = styled.img`
   max-width: 400px;
   max-height: 400px;
   border-radius: 50%;
+  margin-bottom: 70px;
   border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
