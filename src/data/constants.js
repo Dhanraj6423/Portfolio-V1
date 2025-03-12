@@ -10,7 +10,7 @@ export const Bio = {
     "I love bringing ideas to life on the web. Whether it’s crafting clean, responsive designs or solving tricky frontend challenges, I’m all about making websites that look great and work even better. With a solid grip on React, HTML, CSS, and JavaScript, I’m always pushing myself to learn, refine, and build smarter. Every project is a chance to grow, and I’m here for it; ready to create, experiment, and deliver something awesome.",
   github: "https://github.com/Dhanraj6423",
   resume:
-    "https://drive.google.com/file/d/1tSxX-MCBRNalyBzyMvt0FrW6VugNfsco/view?usp=sharing",
+    "https://drive.google.com/file/d/1ZOLYeKdP0ar-suvFYosdAseLhxY9_3GX/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dhanraj-nimbolkar/",
   twitter: "https://x.com/Dhanraj0202",
   insta: "#",
